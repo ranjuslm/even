@@ -4,17 +4,15 @@ class even
 {
 public static void main(String args[])
 {
-int n;
-int sum=0;
 Scanner sc=new Scanner(System.in);
-n=sc.nextInt();
-for(int i=1;i<=n;i++)
+int n=sc.nextInt();
+if(n%2==0)
 {
-if(i%2==0)
-{
-sum+=i;
-System.out.println("sum:"+sum);
+System.out.println("even");
 }
+else
+{
+System.out.println("odd");
 }
 }
 }
